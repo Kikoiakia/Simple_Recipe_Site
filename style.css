@@ -1,0 +1,130 @@
+:root {
+    --color1: #FFFFFF;
+    --color2: #EAEAEA;
+    --color3: #C4C4C4;
+    --color4: #000000;
+    --fontsize1: 16px;
+    --fontsize2: 32px;
+    --borderradius1: 16px;
+    --borderradius2: 8px;
+    --spacing1: 16px;
+    --spacing2: 8px;
+    --opacity: 0.5;
+    --fontweight1: 700;
+    --fontweight2: 400;
+}
+
+.mealList{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color1);
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%  3% 10%;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius1);
+}
+.title{
+    background: var(--color2);
+    border-top-left-radius: var(--borderradius1);
+    border-top-right-radius: var(--borderradius1);
+    border-bottom: 2px solid var(--color4);
+    text-align: center;
+}
+.titleName{
+    font-size: var(--fontsize2);
+    font-weight: var(--fontweight1);   
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.filterOptions{
+    margin: 1rem;
+    height: 4rem;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius1);
+    display: flex;
+    justify-content: center;
+}
+#filterName{
+    height: 2rem;
+    width: 25%;
+    margin: 1rem;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius2);
+    font-size: var(--fontsize1);
+    text-align: left;
+}
+#filterRegion{
+    height: 2rem;
+    width: 25%;
+    margin: 1rem;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius2);
+    font-size: var(--fontsize1);
+    text-align: left;
+}
+#filterCategory{
+    height: 2rem;
+    width: 25%;
+    margin: 1rem;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius2);
+    font-size: var(--fontsize1);
+    text-align: left;
+}
+#meals{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 2px solid var(--color4);
+    border-radius: var(--borderradius1);    
+}
+.mealsOdd{
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: 100%;
+    border-bottom: 2px solid var(--color4);
+    font-size: var(--fontsize1);
+    font-weight: var(--fontweight1); 
+}
+.mealsEven{
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: 100%;
+    border-bottom: 2px solid var(--color4);
+    font-size: var(--fontsize1);
+    font-weight: var(--fontweight1); 
+}
+
+.recipePic{
+    margin: 2%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: var(--borderradius2);
+}
+.mealName{
+  margin-top: 3.5rem;
+  width: 45%;
+  
+}
+.mealRegionCategory{
+    margin-top: 3.5rem;
+    text-align: right;
+}
+.regionAndCategory{
+    width: 30%;
+}
+.seeRecipe{
+    width: 15%;
+    margin: 2.5rem 1rem 2.5rem 1rem;
+    font-size: var(--fontsize1);
+    font-weight: var(--fontweight1);
+    background-color: var(--color3);
+    border: 2px solid var(--color4);
+    border-radius: 8px;
+}
